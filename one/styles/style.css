@@ -1,0 +1,110 @@
+@layer firstLayer, secondLayer;
+
+
+
+html{
+    font-size: 20px;
+    font-family: "Protest Guerrilla";
+    background-color: rgb(71 98 81);
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    border: 5px solid black;
+    background-color: rgb(78 74 24);
+}
+
+.logo{
+    height: 8rem;
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1{
+    margin: 0;
+    text-shadow: 3px 3px 1px black;
+    color: #00539f;
+}
+
+.heading{
+    color: red;
+}
+
+
+.my-class-1 a{
+    color: inherit;
+}
+
+.my-class-2 a{
+    color: initial;
+}
+
+.my-class-3 a{
+    color: unset;
+}
+
+blockquote{
+    background-color: #a29a34;
+    border: 1px solid blue;
+}
+
+.fix-this{
+    all: unset;
+}
+
+#outer a{
+    background-color: red;
+}
+
+#outer #inner a{
+    background-color: blue;
+}
+
+#outer div ul .nav a{
+    color: white;
+}
+
+div div li:nth-child(2) a:hover{
+    border: 10px solid black;
+}
+
+div li:nth-child(2) a:hover{
+    border: 10px dashed black;
+}
+
+div div .nav:nth-child(2) a:hover{
+    border: 10px double black;
+}
+
+a{
+    display: inline-block;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+#winning{
+    background-color: red;
+    border: 1px solid black;
+}
+
+.better{
+    background-color: gray;
+    border: none !important;
+}
